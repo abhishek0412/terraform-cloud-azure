@@ -4,7 +4,7 @@ resource "azurerm_linux_virtual_machine" "linuxvmterraform" {
   location            = azurerm_resource_group.rgterraform.location
   size                = "Standard_F2"
   admin_username      = "adminuser"
-  admin_password = "test123"
+  admin_password = "Dragon123#"
   
   network_interface_ids = [
     azurerm_network_interface.nicterraform.id
